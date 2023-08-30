@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ML Leaders</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<header>
+    <h1>SithCult League Live Ranking</h1>
+</header>
+
+<table>
+    <thead>
+    <tr>
+        <th>Place</th>
+        <th>Team Name</th>
+        <th>Player Name</th>
+        <th>Total Points</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="leader : ${leaders}">
+        <td th:text="${leader.place}"></td>
+        <td th:text="${leader.teamName}"></td>
+        <td th:text="${leader.playerName}"></td>
+        <td th:text="${leader.points}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<footer>
+    <div class="footerDiv">
+    Created by us3r<br>
+        Data from livefpl
+    </div>
+</footer>
+</body>
+</html>

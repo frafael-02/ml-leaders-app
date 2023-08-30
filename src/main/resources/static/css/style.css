@@ -1,0 +1,52 @@
+/* Basic styling for the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto auto;
+    background-color: #ADD8E6;
+    color:black;
+}
+
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    margin:auto;
+}
+
+th {
+    background-color: #00008B;
+    color:white;
+
+}
+
+/* Styling for the title */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header{
+    background-color: #00008B;
+    color:white;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+}
+
+.footerDiv{
+    text-align: center;
+}
+
+/* Optional: Center the table */
+
+
+/* Optional: Add padding to the body */
+body {
+    padding: 20px;
+}
